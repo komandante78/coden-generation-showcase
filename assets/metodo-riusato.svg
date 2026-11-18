@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+<title id="title">Un metodo acquisito e riusato su due progetti</title>
+<desc id="desc">Store di prova inizialmente vuoto, un metodo qualificato sul primo progetto, memoria riaperta per il secondo, versione due dopo nuove verifiche. Prova circoscritta, non apprendimento generale.</desc>
+<rect width="1000" height="420" rx="18" fill="#0b1426"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#63d9f2"/></marker></defs>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#edf4ff">
+<text x="40" y="48" font-size="28" font-weight="bold">Un metodo imparato e riusato</text>
+<text x="40" y="80" font-size="16" fill="#a9bdd9">Prova reale su due progetti | 18 novembre 2026</text>
+<rect x="40" y="130" width="210" height="160" rx="12" fill="#14283c" stroke="#29465b"/>
+<text x="145" y="165" text-anchor="middle" font-size="18">Memoria di prova</text>
+<text x="145" y="215" text-anchor="middle" font-size="27" fill="#78edbd" font-weight="bold">0 metodi</text>
+<text x="145" y="258" text-anchor="middle" font-size="14" fill="#b4c8df">Store inizialmente vuoto</text>
+<line x1="254" y1="210" x2="275" y2="210" stroke="#63d9f2" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="280" y="130" width="210" height="160" rx="12" fill="#14283c" stroke="#29465b"/>
+<text x="385" y="165" text-anchor="middle" font-size="18">Primo progetto</text>
+<text x="385" y="215" text-anchor="middle" font-size="27" fill="#78edbd" font-weight="bold">1 metodo</text>
+<text x="385" y="258" text-anchor="middle" font-size="14" fill="#b4c8df">Qualificato e conservato</text>
+<line x1="494" y1="210" x2="515" y2="210" stroke="#63d9f2" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="520" y="130" width="210" height="160" rx="12" fill="#14283c" stroke="#29465b"/>
+<text x="625" y="165" text-anchor="middle" font-size="18">Altro progetto</text>
+<text x="625" y="215" text-anchor="middle" font-size="27" fill="#78edbd" font-weight="bold">Riapertura</text>
+<text x="625" y="258" text-anchor="middle" font-size="14" fill="#b4c8df">Metodo nel prompt</text>
+<line x1="734" y1="210" x2="755" y2="210" stroke="#63d9f2" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="760" y="130" width="210" height="160" rx="12" fill="#14283c" stroke="#29465b"/>
+<text x="865" y="165" text-anchor="middle" font-size="18">Riuso verificato</text>
+<text x="865" y="215" text-anchor="middle" font-size="27" fill="#78edbd" font-weight="bold">Versione 2</text>
+<text x="865" y="258" text-anchor="middle" font-size="14" fill="#b4c8df">Nuove controprove</text>
+<text x="40" y="340" font-size="17">2/2 missioni, 14 test finali passati. Una ricetta nel linguaggio supportato.</text>
+<text x="40" y="374" font-size="15" fill="#a9bdd9">Non misura apprendimento generale o beneficio causale della memoria.</text>
+</g></svg>

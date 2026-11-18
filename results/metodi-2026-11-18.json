@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "classification": "VERIFICATO",
+  "scope": "Controlled development trial:one new parameterized repair method acquired and reused on another project with a real local model",
+  "completed": 2,
+  "planned": 2,
+  "final_acceptance_tests": 14,
+  "method_acquired": true,
+  "origin_method_version": 1,
+  "version_after_transfer": 2,
+  "memory_started_empty": true,
+  "memory_reopened_authenticated": true,
+  "method_in_prompt_before_first_target_write": true,
+  "transfer_checks_passed": true,
+  "mission_generation_tokens": 71940,
+  "mission_generation_calls": 10,
+  "readiness_probe_tokens": 105,
+  "readiness_probe_calls": 1,
+  "total_generation_tokens_including_probe": 72045,
+  "total_generation_calls_including_probe": 11,
+  "embedding_http_calls": 18,
+  "mission_seconds": 710.346,
+  "minimum_host_ram_available_gib": 18.568,
+  "minimum_vram_free_gib": 2.08,
+  "max_gpu_temperature_c": 66.56,
+  "windows_inference_or_full_suite": false,
+  "mission_resume_exercised": false,
+  "causal_memory_benefit": "NON MISURATO",
+  "general_method_learning": "NON MISURATO",
+  "token_or_speed_benefit": "NON MISURATO",
+  "model_weights_trained": false,
+  "not_a_blind_or_representative_benchmark": true,
+  "rows": [
+    {
+      "project": "Esportazione misure",
+      "state": "completed",
+      "tokens": 29680,
+      "calls": 5,
+      "seconds": 250.551,
+      "embedding_http_calls": 9
+    },
+    {
+      "project": "Gateway eventi",
+      "state": "completed",
+      "tokens": 42260,
+      "calls": 5,
+      "seconds": 459.795,
+      "embedding_http_calls": 9
+    }
+  ],
+  "provenance": "Selected summary of retained private artifacts;original software and raw traces not distributed",
+  "private_summary_sha256": "6dc6fd81454d59cffd09fb2b2e18f4028fcf2afc629f0560392bc7e8f2fbe754"
+}
