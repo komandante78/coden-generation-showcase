@@ -77,6 +77,6 @@ Brain, MIRA, JEC e Agenti Evolutivi hanno ruoli e livelli di maturita diversi: [
 
 Questa e una vetrina documentale: **non contiene il codice del prodotto, modelli, eseguibili o pacchetti di installazione**. Il software e sviluppato privatamente e non e distribuito qui. Le immagini e i grafici sono materiali di presentazione.
 
-Le evidenze originali sono conservate privatamente. Pubblichiamo [riepiloghi e dati selezionati](results/campagna-2026-11-18.json), [dati delle missioni](results/missioni-2026-11-18.csv) e [serie delle risorse](results/risorse-2026-11-18.csv). I risultati pubblici non costituiscono una riproduzione indipendente del software privato. La review Code del nuovo delta resta pendente; nessuna release finale e dichiarata.
+Le evidenze originali sono conservate privatamente. Pubblichiamo [riepiloghi e dati selezionati](results/campagna-2026-11-18.json), [dati delle missioni](results/missioni-2026-11-18.csv) e [serie delle risorse](results/risorse-2026-11-18.csv). I risultati pubblici non costituiscono una riproduzione indipendente del software privato. Dopo la campagna sono stati corretti altri rilievi del circuito di recupero e della ripresa: 652 test offline passati (uno skip) e rilettura Code senza nuovi blocchi individuati nel delta. Questi nuovi byte non sono stati misurati live; nessuna release finale e dichiarata.
 
 Aggiornamento: 18 novembre 2026.

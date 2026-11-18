@@ -73,7 +73,7 @@
     "No causal advantage of web,semantic retrieval or memory demonstrated",
     "New-family reusable method learning not measured",
     "No general autonomy,AGI or trained proprietary general model demonstrated",
-    "Independent Code review of latest corrections pending"
+    "Latest-source review is separate from the frozen campaign; see docs/STATO.md"
   ],
   "previous_campaign": {
     "passed": 3,
