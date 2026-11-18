@@ -7,9 +7,9 @@
 
 Un progetto AI in sviluppo per cercare informazioni, creare soluzioni, verificarle e conservare esperienze.
 
-**Prototipo proprietario · Sviluppo privato · Vetrina pubblica**
+**Prototipo proprietario Â· Sviluppo privato Â· Vetrina pubblica**
 
-[Capacita e stato](docs/STATO.md) · [Tecnologie](docs/TECNOLOGIE.md) · [Risultati e metodo](docs/METODOLOGIA.md) · [Roadmap](docs/ROADMAP.md)
+[Capacita e stato](docs/STATO.md) Â· [Tecnologie](docs/TECNOLOGIE.md) Â· [Risultati e metodo](docs/METODOLOGIA.md) Â· [Roadmap](docs/ROADMAP.md)
 </div>
 
 ## Cosa vuole diventare
@@ -29,7 +29,30 @@ Sono capacita osservate nel perimetro delle prove, non una garanzia per qualsias
 
 ![Ciclo operativo](assets/ciclo.svg)
 
-## Nuova prova reale: un metodo imparato e riusato — 18 novembre 2026
+## Nuova prova non JSON: XML e copia di directory â€” 18 novembre 2026
+
+**Candidati: 6/6 passano i test finali separati (48 test). Nuovi metodi qualificati: 2/2. Riuso completo: 1/2. Efficienza: INCONCLUSIVO.**
+
+Quattro piccoli progetti di cinque file: esportazione XML e copia di directory con link simbolici, entrambi con interfaccia a riga di comando e componenti protetti. Due acquisizioni, poi due confronti sullo stesso compito con e senza i metodi appena appresi. Ricerca, semantica, modello reale, memoria e verifica isolata restano attivi in entrambi i casi. Un tentativo per missione.
+
+| Compito | Token controllo | Token con metodi | Variazione token | Tempo controllo | Tempo con metodi | Variazione tempo |
+|---|---:|---:|---:|---:|---:|---:|
+| Directory | 36,742 | 41,627 | +13.3% | 349.6 s | 371.4 s | +6.2% |
+| XML | 34,495 | 44,126 | +27.9% | 296.6 s | 425.5 s | +43.5% |
+
+Valori negativi indicano minor costo con memoria. Tempo: avvio del worker fino alla chiusura, inclusi ricerca, modello, verifica e memoria; avvio comune dei modelli, warmup e copia dello store esclusi. I token comprendono prompt, risposte e ragionamento.
+
+**Il riuso e FALLITO; il confronto di efficienza e INCONCLUSIVO.** La soglia richiedeva almeno il 10% in meno su tempo e token, correttezza e riqualificazione del metodo in entrambe le coppie. Patch corrette o una ricetta nel prompt non bastano. I costi osservati non vengono presentati come prova di accelerazione se manca il riuso qualificato.
+
+![Costi osservati delle due coppie](assets/confronto-metodi.svg)
+
+Costo delle due acquisizioni: 71,914 token e 558.4 s worker, separato dai confronti. Totale delle sei missioni e di tutti i preflight, inclusi due preflight infrastrutturali inconclusivi: **229,273 token/40 chiamate**. I due preflight precedenti non avevano eseguito missioni; errori del controllore conservati e revisionati prima della campagna valida.
+
+Prove pesanti solo su Unraid. Nei campioni: almeno 21.27 GiB RAM host disponibili, 2.08 GiB VRAM libera, massimo 66.28 C GPU. Risorse temporanee della prova archiviate e rimosse. Windows: sola orchestrazione leggera.
+
+**Limiti:** integrazione piu ampia, ma il metodo supportato resta una trasformazione parametrica circoscritta. Due coppie descrittive non dimostrano un vantaggio generale. Nessun addestramento dei pesi o AGI. Prove precedenti e risultati negativi restano conservati. [Dati selezionati e tutti i costi](results/confronto-metodi-2026-11-18.json).
+
+## Prova precedente: un metodo JSON imparato e riusato â€” 18 novembre 2026
 
 **VERIFICATO in una prova controllata: 2 progetti su 2, 14 test finali passati.**
 
@@ -50,7 +73,7 @@ Modello locale reale, ricerca su documentazione ufficiale, embedding reali e ver
 
 Prova su Unraid: almeno 18,57 GiB di RAM host disponibili, 2,08 GiB di VRAM libera, temperatura GPU massima 66,56 C nei campioni delle missioni. Valori dell'host, non consumo esclusivo del prodotto. Windows usato per orchestrazione leggera; nessuna inferenza o suite completa Windows. [Dati selezionati](results/metodi-2026-11-18.json).
 
-## Campagna precedente di creazione, riparazione e ripresa — 18 novembre 2026
+## Campagna precedente di creazione, riparazione e ripresa â€” 18 novembre 2026
 
 **4 missioni su 4 hanno raggiunto i criteri congelati.** Il valutatore separato ha eseguito 17 test di accettazione, tutti passati.
 
@@ -83,7 +106,7 @@ Prova su Unraid/Linux con GPU NVIDIA RTX 3060, modello generativo locale ed embe
 
 Questa campagna ha conservato **4 osservazioni di esito verificato e 1 ipotesi esplicitamente non verificata**. Lo store e stato riaperto e autenticato. **Nessun nuovo metodo qualificato** e stato prodotto da queste famiglie di compiti.
 
-Il riuso di un metodo era stato osservato in una prova precedente nella sola famiglia dei default mutabili. La nuova prova reale sopra documenta un metodo acquisito e riusato. Generalizzazione e beneficio causale della memoria restano NON MISURATI. Salvare un'esperienza non equivale ad addestrare i pesi di un modello.
+Il riuso di un metodo era stato osservato in una prova precedente nella sola famiglia dei default mutabili. La prova JSON documenta un metodo acquisito e riusato. La successiva prova non JSON, riportata sopra, separa correttezza, riqualificazione ed efficienza. Generalizzazione e beneficio di popolazione restano NON MISURATI. Salvare un'esperienza non equivale ad addestrare i pesi di un modello.
 
 ## Metodi nuovi: verifica successiva offline
 

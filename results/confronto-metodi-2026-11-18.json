@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-18",
+  "type": "descriptive development comparison;not population benchmark",
+  "domains": [
+    "XML export with command-line interface",
+    "directory snapshots with symbolic links and command-line interface"
+  ],
+  "projects": 4,
+  "files_per_project": 5,
+  "missions": 6,
+  "repetitions_per_arm": 1,
+  "candidate_acceptance": {
+    "classification": "VERIFICATO",
+    "passed_missions": 6,
+    "tests_executed": 48
+  },
+  "new_methods": 2,
+  "qualified_reuse_families": 1,
+  "planned_reuse_families": 2,
+  "learning_and_reuse_classification": "FALLITO",
+  "efficiency_classification": "INCONCLUSIVO",
+  "comparison_valid": false,
+  "efficiency_threshold": "at least10percent lower measured tokens AND worker walltime,correctness and actual qualified reuse in both pairs",
+  "pairs": [
+    {
+      "family": "fs",
+      "reuse_verified": false,
+      "comparison_valid": false,
+      "control_tokens": 36742,
+      "memory_tokens": 41627,
+      "control_seconds": 349.61648869514465,
+      "memory_seconds": 371.3971743583679,
+      "control_provider_seconds": 340.81407064397354,
+      "memory_provider_seconds": 360.3165253129846,
+      "token_reduction_fraction": -0.1329541124598552,
+      "time_reduction_fraction": -0.06229879415731844,
+      "teaching_tokens": 41230,
+      "teaching_worker_seconds": 341.0359077453613,
+      "net_tokens_saved_after_one_teaching": -46115,
+      "net_seconds_saved_after_one_teaching": -362.8165934085846,
+      "control_composite_passed": true,
+      "memory_composite_passed": false,
+      "control_candidate_acceptance_passed": true,
+      "memory_candidate_acceptance_passed": true
+    },
+    {
+      "family": "xml",
+      "reuse_verified": true,
+      "comparison_valid": true,
+      "control_tokens": 34495,
+      "memory_tokens": 44126,
+      "control_seconds": 296.5761730670929,
+      "memory_seconds": 425.50861167907715,
+      "control_provider_seconds": 287.16854789099307,
+      "memory_provider_seconds": 416.1807699550118,
+      "token_reduction_fraction": -0.2791998840411654,
+      "time_reduction_fraction": -0.43473633528481914,
+      "teaching_tokens": 30684,
+      "teaching_worker_seconds": 217.39128804206848,
+      "net_tokens_saved_after_one_teaching": -40315,
+      "net_seconds_saved_after_one_teaching": -346.32372665405273,
+      "control_composite_passed": true,
+      "memory_composite_passed": true,
+      "control_candidate_acceptance_passed": true,
+      "memory_candidate_acceptance_passed": true
+    }
+  ],
+  "aggregate_observed_costs": {
+    "control_tokens": 71237,
+    "memory_tokens": 85753,
+    "control_seconds": 646.1926617622375,
+    "memory_seconds": 796.9057860374451,
+    "token_reduction_fraction": -0.20377051251456407,
+    "time_reduction_fraction": -0.2332324911647812,
+    "total_teaching_tokens": 71914,
+    "total_teaching_seconds": 558.4271957874298,
+    "net_tokens_saved_including_teaching": -86430,
+    "net_seconds_saved_including_teaching": -709.1403200626373
+  },
+  "all_attempts": {
+    "mission_tokens": 228904,
+    "mission_calls": 31,
+    "readiness_tokens": 328,
+    "readiness_calls": 8,
+    "earlier_infrastructure_tokens": 41,
+    "earlier_infrastructure_calls": 1,
+    "total_tokens": 229273,
+    "total_calls": 40,
+    "embedding_http_calls": 54
+  },
+  "resources": {
+    "minimum_host_ram_available_gib": 21.272,
+    "minimum_gpu_free_gib": 2.078,
+    "max_gpu_temperature_c": 66.28
+  },
+  "windows": "light orchestration only;no inference or full suite",
+  "active": [
+    "local generation and thinking",
+    "authorized official-document research",
+    "real embedding/hybrid retrieval",
+    "persistent authenticated memory",
+    "planning",
+    "isolated container verification"
+  ],
+  "control": "only new learned methods invalidated;other memory observations and capabilities remain active",
+  "cache": "RAM prompt cache disabled,slots erased and empty-confirmed;warmup cache reuse zero directly recorded;firstmissionchat coldness inferred from verified mechanisms",
+  "prior_infrastructure_preflights": {
+    "count": 2,
+    "missions_executed": 0,
+    "classification": "INCONCLUSIVO",
+    "causes": [
+      "experiment endpoint missing a required configuration flag",
+      "controller confused final slot size with reused prompt tokens"
+    ],
+    "direction_review_completed": true
+  },
+  "source_snapshot_matches_prior_665_suite": true,
+  "software_release": false,
+  "scope_limits": [
+    "single supported keyword operation;not arbitrary algorithm learning",
+    "two paired tasks,one attempt each;no confidence intervals or population superiority",
+    "worker time excludes shared model startup,warmup and memory cloning;teaching cost reported separately",
+    "candidate correctness does not by itself establish method reuse",
+    "model weights were not trained",
+    "raw code and evidence remain private"
+  ],
+  "private_summary_sha256": "88bf6946d6b97b2bf21d7bd660c3bb4d4d702457bf8a615820d13144c266ba08"
+}

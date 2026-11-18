@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="570" viewBox="0 0 1020 570" role="img" aria-labelledby="title desc">
+<title id="title">Costi osservati con e senza nuovi metodi</title>
+<desc id="desc">Due coppie di compiti non JSON. Valori osservati di token e tempo wall. Riuso qualificato 1 su due; efficienza INCONCLUSIVO. Non una prova di vantaggio generale.</desc>
+<rect width="1020" height="570" rx="18" fill="#0b1426"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#edf4ff">
+<text x="35" y="45" font-size="27" font-weight="bold">Memoria: costi osservati su due compiti nuovi</text>
+<text x="35" y="77" font-size="17" fill="#ffd18c">Riuso qualificato 1/2 | Efficienza INCONCLUSIVO</text>
+<rect x="36" y="98" width="15" height="15" fill="#71869e"/><text x="60" y="111" font-size="15">Controllo</text>
+<rect x="185" y="98" width="15" height="15" fill="#39b8e8"/><text x="209" y="111" font-size="15">Nuovi metodi disponibili</text>
+<text x="35" y="147" font-size="20" font-weight="bold">Token (prompt + risposta + ragionamento)</text>
+<text x="555" y="147" font-size="20" font-weight="bold">Secondi wall del worker</text>
+<text x="35" y="188" font-size="16" fill="#c5d7ef">Directory e link</text>
+<rect x="35" y="201" width="233.15" height="26" rx="4" fill="#71869e"/>
+<text x="276.15" y="220" font-size="15">36,742</text>
+<rect x="35" y="238" width="264.14" height="26" rx="4" fill="#39b8e8"/>
+<text x="307.14" y="257" font-size="15">41,627</text>
+<text x="555" y="188" font-size="16" fill="#c5d7ef">Directory e link</text>
+<rect x="555" y="201" width="230.06" height="26" rx="4" fill="#71869e"/>
+<text x="793.06" y="220" font-size="15">349.6 s</text>
+<rect x="555" y="238" width="244.39" height="26" rx="4" fill="#39b8e8"/>
+<text x="807.39" y="257" font-size="15">371.4 s</text>
+<text x="35" y="332" font-size="16" fill="#c5d7ef">Esportazione XML</text>
+<rect x="35" y="345" width="218.89" height="26" rx="4" fill="#71869e"/>
+<text x="261.89" y="364" font-size="15">34,495</text>
+<rect x="35" y="382" width="280.00" height="26" rx="4" fill="#39b8e8"/>
+<text x="323.00" y="401" font-size="15">44,126</text>
+<text x="555" y="332" font-size="16" fill="#c5d7ef">Esportazione XML</text>
+<rect x="555" y="345" width="195.16" height="26" rx="4" fill="#71869e"/>
+<text x="758.16" y="364" font-size="15">296.6 s</text>
+<rect x="555" y="382" width="280.00" height="26" rx="4" fill="#39b8e8"/>
+<text x="843.00" y="401" font-size="15">425.5 s</text>
+<text x="35" y="463" font-size="17">Due coppie, un tentativo per caso. Piu basso indica minor costo osservato.</text>
+<text x="35" y="495" font-size="15" fill="#b1c4df">Acquisizione e warmup fuori dai grafici; tutti i costi sono riportati nei dati.</text>
+<text x="35" y="527" font-size="15" fill="#b1c4df">Patch corretta e riuso qualificato sono esiti distinti. Nessun vantaggio generale dichiarato.</text>
+</g></svg>

@@ -17,3 +17,11 @@ Hardware osservato:Unraid/Linux,NVIDIA RTX3060,modelli locali. Minima RAM dispon
 Un primo controllo infrastrutturale delle fixture non ha eseguito test per stdin non collegato:INCONCLUSIVO,conservato;corretto prima della generazione,poi17test oracle su4suite effettivamente verdi. Le regressioni del motore erano rosse prima delle correzioni e verdi dopo. Nessun tentativo modello viene rimosso da questi riepiloghi.
 
 I dati pubblicati sono selezionati e sanitizzati;il software e i log grezzi non sono pubblici. Non offriamo riproducibilita indipendente completa dal solo repository pubblico. Il digest del riepilogo privato nei dati pubblici e un riferimento d'integrita,non una verifica esterna della qualita.
+
+## Confronto non JSON successivo
+
+Sei missioni e due coppie identiche, con ordine controbilanciato: memoria prima per le directory, controllo prima per XML. Nel controllo vengono invalidati solo i metodi appena acquisiti, preservando le altre osservazioni. Ogni braccio riapre uno store indipendente derivato dallo stesso stato dopo le acquisizioni.
+
+Criterio preregistrato: almeno 10% in meno sia nei token totali misurati sia nel tempo wall del worker, senza regressione dei candidati e con riuso qualificato completo in entrambe le coppie. Tutti i tentativi sono conservati. Acquisizione, correttezza del candidato, riuso ed efficienza hanno esiti distinti; un confronto invalido resta INCONCLUSIVO anche se un numero appare favorevole.
+
+Cache RAM del prompt disabilitata e slot cancellato e ricontrollato prima di ogni missione. Il contatore del riuso del prompt e verificato nei probe; il prompt iniziale della chat non ha un contatore diretto registrato, quindi il suo stato freddo e inferito dai meccanismi. Cache di filesystem, ordine e latenza di rete non sono completamente isolati. Due coppie non consentono una stima di vantaggio generale. [Nuovi dati selezionati](../results/confronto-metodi-2026-11-18.json).

@@ -7,7 +7,7 @@
 | JEC | Controllo deterministico/consultivo nel verticale numerico | Non applicabile all'ultima campagna software;accelerazione generale NON MISURATA |
 | Agenti Evolutivi | Tecnologia sperimentale separata per proposte,valutazione e memoria | Contratti e integrazioni di sviluppo;nessuna evoluzione autonoma generale dimostrata |
 | Embedding e semantica | Recuperano passaggi delle fonti acquisite | Backend locale reale verificato;non un modello generalista proprietario |
-| Memoria verificata | Conserva record,provenienza ed esiti con ruoli distinti | Persistenza e un nuovo metodo riusato verificati su due progetti; qualificatore ancora limitato |
+| Memoria verificata | Conserva record,provenienza ed esiti con ruoli distinti | Persistenza e riuso JSON verificati; prova non JSON 2/2 acquisizioni e 1/2 riqualificazioni; qualificatore limitato |
 | Container e modelli locali | Separano esecuzione dei candidati e risorse di inferenza | Prova su Unraid con immagini e asset identificati da hash |
 
 Modelli sostituibili e funzionamento su PC/server sono direzioni architetturali. Non dichiariamo supporto verificato a ogni dispositivo o provider. Nome e hash di un asset locale non attestano da soli la sua provenienza upstream.
