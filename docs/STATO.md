@@ -10,7 +10,7 @@ Aggiornamento18novembre2026. VERIFICATO significa osservato nel perimetro dichia
 | Verifica isolata | VERIFICATO su Unraid | Host e daemon fidati;non multi-tenant |
 | Ripresa fra processi | VERIFICATO in una missione | Durabilita completa al crash/rollback NON MISURATA |
 | Persistenza memoria | VERIFICATO | Osservazioni e ipotesi separate |
-| Riuso di metodi | VERIFICATO nella famiglia default mutabili precedente | Nessun nuovo metodo qualificato nell'ultima campagna |
+| Riuso di metodi | Storico reale default mutabili; nuove ricette verificate offline | Nuove famiglie con modello reale NON MISURATE |
 | Autonomia generale24/7 | Da completare | Nessuna affidabilita prolungata dichiarata |
 | GUI e distribuzione finale | Da completare | Obiettivo PC/server,non universalita certificata |
 | Nuovo modello generalista proprietario | Non addestrato | Componenti appresi ancora da costruire |
@@ -20,3 +20,10 @@ La precedente campagna3/4 resta FALLITA. Nuovi compiti4/4 non dimostrano un migl
 ## Dopo la campagna
 
 Una review indipendente ha individuato un difetto del circuito di recupero non attraversato nel4/4 e due incongruenze di contratto/ripresa. Il delta e stato corretto e verificato offline:652test0failure0error1skip,Pyright15file0error,quattro nuove regressioni. Rilettura Code:nessun blocco individuato nel delta;restano limiti dichiarati. La prova reale4/4 riguarda lo snapshot precedente,non i nuovi byte. Nessuna campagna identica e stata ripetuta per cambiare il risultato.
+
+## Metodi nuovi: verifica successiva offline
+
+Dopo quella campagna, il prototipo ha acquisito e riapplicato ricette parametriche in due nuove famiglie di casi controllati. La memoria cifrata e stata chiusa e riaperta; i metodi recuperati hanno prodotto correzioni su codice diverso, nuovamente verificate. Non sono soltanto osservazioni archiviate.
+
+**VERIFICATO offline con attori controllati:** 13 nuovi controlli; suite finale 665 test, 664 passati, 0 fallimenti, 0 errori, 1 skip motivato. Revisione separata di Code e correzione dei rilievi. **NON MISURATO:** acquisizione e trasferimento autonomi con un modello reale per queste nuove famiglie, apprendimento generale e beneficio causale della memoria. La campagna reale 4/4 e i suoi grafici restano invariati.
+

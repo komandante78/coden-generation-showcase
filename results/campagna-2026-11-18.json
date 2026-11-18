@@ -82,5 +82,20 @@
     "different_tasks_not_directly_comparable": true
   },
   "provenance": "Summaries extracted from retained private evidence; software and raw artifacts not distributed",
-  "private_evidence_summary_sha256": "4568f24b7655991ba9aa1b683b2e0a655b3db09701bfed4926f3b12053491920"
+  "private_evidence_summary_sha256": "4568f24b7655991ba9aa1b683b2e0a655b3db09701bfed4926f3b12053491920",
+  "separate_post_campaign_offline_validation": {
+    "date": "2026-11-18",
+    "classification": "VERIFICATO",
+    "scope": "controlled executable method acquisition,reopened encrypted memory and replay on changed code",
+    "full_tests": 665,
+    "passed": 664,
+    "failures": 0,
+    "errors": 0,
+    "skip": 1,
+    "new_targeted_tests": 13,
+    "real_model_calls": 0,
+    "new_family_live_transfer": "NON MISURATO",
+    "causal_memory_benefit": "NON MISURATO",
+    "independent_review": "Code static review;findings corrected;focused rereview no blocker in delta"
+  }
 }

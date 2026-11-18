@@ -61,7 +61,13 @@ Prova su Unraid/Linux con GPU NVIDIA RTX 3060, modello generativo locale ed embe
 
 Questa campagna ha conservato **4 osservazioni di esito verificato e 1 ipotesi esplicitamente non verificata**. Lo store e stato riaperto e autenticato. **Nessun nuovo metodo qualificato** e stato prodotto da queste famiglie di compiti.
 
-Il riuso di un metodo era stato osservato in una prova precedente nella sola famiglia dei default mutabili. Apprendimento di metodi su nuove famiglie e beneficio causale della memoria restano NON MISURATI. Salvare un'esperienza non equivale ad addestrare i pesi di un modello.
+Il riuso di un metodo era stato osservato in una prova precedente nella sola famiglia dei default mutabili. Acquisizione e trasferimento con modello reale su nuove famiglie e beneficio causale della memoria restano NON MISURATI; la prova offline successiva e descritta sotto. Salvare un'esperienza non equivale ad addestrare i pesi di un modello.
+
+## Metodi nuovi: verifica successiva offline
+
+Dopo quella campagna, il prototipo ha acquisito e riapplicato ricette parametriche in due nuove famiglie di casi controllati. La memoria cifrata e stata chiusa e riaperta; i metodi recuperati hanno prodotto correzioni su codice diverso, nuovamente verificate. Non sono soltanto osservazioni archiviate.
+
+**VERIFICATO offline con attori controllati:** 13 nuovi controlli; suite finale 665 test, 664 passati, 0 fallimenti, 0 errori, 1 skip motivato. Revisione separata di Code e correzione dei rilievi. **NON MISURATO:** acquisizione e trasferimento autonomi con un modello reale per queste nuove famiglie, apprendimento generale e beneficio causale della memoria. La campagna reale 4/4 e i suoi grafici restano invariati.
 
 ## Cosa resta da costruire e misurare
 
