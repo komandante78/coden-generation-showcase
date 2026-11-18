@@ -29,6 +29,14 @@ Sono capacita osservate nel perimetro delle prove, non una garanzia per qualsias
 
 ![Ciclo operativo](assets/ciclo.svg)
 
+## Scelta e adattamento dei metodi — 18 novembre 2026
+
+Su Unraid, con un modello locale, 5/5 candidati hanno superato i test finali. Metodi acquisiti 2/2, trasferimenti qualificati 2/2. Criterio della prova completa FALLITO.
+
+Il motore propone una ricetta memorizzata quando riconosce le condizioni nel codice attuale. Il modello sceglie il metodo e il motore costruisce un candidato con una modifica localizzata. I test del progetto corrente verificano l'esito. Nel caso incompatibile il metodo è stato escluso per la diversa provenienza delle fonti prima del controllo strutturale. Il candidato ha comunque preservato il comportamento richiesto. La prova copre opzioni Python in lettura della configurazione e serializzazione di parametri URL. I casi non sono coppie identiche. Il risparmio di tempo e token resta NON MISURATO.
+
+[Dati della prova](results/riuso-contestuale-2026-11-18.json).
+
 ## Nuova prova non JSON: XML e copia di directory â€” 18 novembre 2026
 
 **Candidati: 6/6 passano i test finali separati (48 test). Nuovi metodi qualificati: 2/2. Riuso completo: 1/2. Efficienza: INCONCLUSIVO.**

@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-18",
+  "scope": "controlled development trial, five small projects on Unraid",
+  "classification": "FALLITO",
+  "planned_tasks": 5,
+  "correct_candidates": 5,
+  "accepted_final_tests": 25,
+  "learned_methods": 2,
+  "structured_transfers": 2,
+  "inapplicable_method_rejection": "FALLITO",
+  "tasks": [
+    {
+      "kind": "learn configuration handling",
+      "classification": "VERIFICATO",
+      "correct_candidate": true,
+      "tokens": 27448,
+      "worker_seconds": 179.75210547447205
+    },
+    {
+      "kind": "learn query handling",
+      "classification": "VERIFICATO",
+      "correct_candidate": true,
+      "tokens": 26513,
+      "worker_seconds": 169.881365776062
+    },
+    {
+      "kind": "transfer configuration",
+      "classification": "VERIFICATO",
+      "correct_candidate": true,
+      "tokens": 32715,
+      "worker_seconds": 237.943377494812
+    },
+    {
+      "kind": "transfer query",
+      "classification": "VERIFICATO",
+      "correct_candidate": true,
+      "tokens": 32295,
+      "worker_seconds": 265.51033782958984
+    },
+    {
+      "kind": "reject incompatible configuration recipe",
+      "classification": "FALLITO",
+      "correct_candidate": true,
+      "tokens": 28337,
+      "worker_seconds": 194.54797768592834
+    }
+  ],
+  "total_tokens_including_warmup": 147595,
+  "total_generation_calls": 32,
+  "linux_suite": {
+    "run": 668,
+    "passed": 667,
+    "skipped": 1
+  },
+  "efficiency": "NON MISURATO",
+  "model": "local model on Unraid",
+  "evaluation": "independent hidden and visible tests after generator closure",
+  "scope_limit": "supported Python edits of a single public API parameter, requires verified current candidate"
+}

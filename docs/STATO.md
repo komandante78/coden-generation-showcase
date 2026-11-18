@@ -70,3 +70,11 @@ Costo delle due acquisizioni: 71,914 token e 558.4 s worker, separato dai confro
 Prove pesanti solo su Unraid. Nei campioni: almeno 21.27 GiB RAM host disponibili, 2.08 GiB VRAM libera, massimo 66.28 C GPU. Risorse temporanee della prova archiviate e rimosse. Windows: sola orchestrazione leggera.
 
 **Limiti:** integrazione piu ampia, ma il metodo supportato resta una trasformazione parametrica circoscritta. Due coppie descrittive non dimostrano un vantaggio generale. Nessun addestramento dei pesi o AGI. Prove precedenti e risultati negativi restano conservati. [Dati selezionati e tutti i costi](../results/confronto-metodi-2026-11-18.json).
+
+## Riuso contestuale su Unraid
+
+Su Unraid, con un modello locale, 5/5 candidati hanno superato i test finali. Metodi acquisiti 2/2, trasferimenti qualificati 2/2. Criterio della prova completa FALLITO.
+
+Il motore propone una ricetta memorizzata quando riconosce le condizioni nel codice attuale. Il modello sceglie il metodo e il motore costruisce un candidato con una modifica localizzata. I test del progetto corrente verificano l'esito. Nel caso incompatibile il metodo è stato escluso per la diversa provenienza delle fonti prima del controllo strutturale. Il candidato ha comunque preservato il comportamento richiesto. La prova copre opzioni Python in lettura della configurazione e serializzazione di parametri URL. I casi non sono coppie identiche. Il risparmio di tempo e token resta NON MISURATO.
+
+[Dati della prova](../results/riuso-contestuale-2026-11-18.json).
