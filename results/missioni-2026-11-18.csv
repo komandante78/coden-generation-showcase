@@ -1,0 +1,5 @@
+id,task,result,tokens,generation_calls,seconds,resumed
+N1,Creazione CSV,VERIFICATO nel caso,39639,5,430.464,False
+N2,Fusi orari,VERIFICATO nel caso,47012,6,485.982,False
+N3,Parametri URL,VERIFICATO nel caso,28826,5,192.706,False
+N4,Report file + ripresa,VERIFICATO nel caso,39032,5,506.173,True

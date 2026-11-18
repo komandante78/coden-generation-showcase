@@ -1,0 +1,86 @@
+{
+  "date_local": "2026-11-18",
+  "classification": "VERIFICATO within four controlled development missions",
+  "missions": [
+    {
+      "id": "N1",
+      "task": "Creazione CSV",
+      "result": "VERIFICATO nel caso",
+      "tokens": 39639,
+      "generation_calls": 5,
+      "seconds": 430.464,
+      "resumed": false
+    },
+    {
+      "id": "N2",
+      "task": "Fusi orari",
+      "result": "VERIFICATO nel caso",
+      "tokens": 47012,
+      "generation_calls": 6,
+      "seconds": 485.982,
+      "resumed": false
+    },
+    {
+      "id": "N3",
+      "task": "Parametri URL",
+      "result": "VERIFICATO nel caso",
+      "tokens": 28826,
+      "generation_calls": 5,
+      "seconds": 192.706,
+      "resumed": false
+    },
+    {
+      "id": "N4",
+      "task": "Report file + ripresa",
+      "result": "VERIFICATO nel caso",
+      "tokens": 39032,
+      "generation_calls": 5,
+      "seconds": 506.173,
+      "resumed": true
+    }
+  ],
+  "passed": 4,
+  "total": 4,
+  "acceptance_tests": 17,
+  "tokens": 154509,
+  "generation_calls": 21,
+  "embedding_http_calls": 36,
+  "mission_seconds": 1615.325,
+  "memory": {
+    "verified_outcome_observations": 4,
+    "unverified_hypotheses": 1,
+    "new_qualified_methods": 0,
+    "authenticated_reopen": true
+  },
+  "resources": {
+    "min_available_ram_mib": 15380.0,
+    "min_gpu_free_mib": 2130.0,
+    "max_gpu_temperature_c": 65.72,
+    "windows_model_or_fullsuite": false
+  },
+  "offline_checks": {
+    "full_suite": 648,
+    "failures": 0,
+    "errors": 0,
+    "skip": 1,
+    "pyright_files": 14,
+    "pyright_errors": 0,
+    "targeted_regressions": 9,
+    "post_full_changes": "typing-only identity casts; AST equivalence attested"
+  },
+  "limits": [
+    "Small development campaign,not a blind general benchmark",
+    "No causal advantage of web,semantic retrieval or memory demonstrated",
+    "New-family reusable method learning not measured",
+    "No general autonomy,AGI or trained proprietary general model demonstrated",
+    "Independent Code review of latest corrections pending"
+  ],
+  "previous_campaign": {
+    "passed": 3,
+    "total": 4,
+    "classification": "FALLITO",
+    "different_tasks_not_directly_comparable": true
+  },
+  "provenance": "Summaries extracted from retained private evidence; software and raw artifacts not distributed",
+  "private_evidence_summary_sha256": "4568f24b7655991ba9aa1b683b2e0a655b3db09701bfed4926f3b12053491920"
+}
