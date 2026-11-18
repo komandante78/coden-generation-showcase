@@ -26,4 +26,3 @@ Una review indipendente ha individuato un difetto del circuito di recupero non a
 Dopo quella campagna, il prototipo ha acquisito e riapplicato ricette parametriche in due nuove famiglie di casi controllati. La memoria cifrata e stata chiusa e riaperta; i metodi recuperati hanno prodotto correzioni su codice diverso, nuovamente verificate. Non sono soltanto osservazioni archiviate.
 
 **VERIFICATO offline con attori controllati:** 13 nuovi controlli; suite finale 665 test, 664 passati, 0 fallimenti, 0 errori, 1 skip motivato. Revisione separata di Code e correzione dei rilievi. **NON MISURATO:** acquisizione e trasferimento autonomi con un modello reale per queste nuove famiglie, apprendimento generale e beneficio causale della memoria. La campagna reale 4/4 e i suoi grafici restano invariati.
-
